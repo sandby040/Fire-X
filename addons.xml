@@ -799,7 +799,7 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
 </addon>
 <addon id="service.stube.guard"
        name="NOVA Build Guard"
-       version="1.0.1"
+       version="1.0.2"
        provider-name="NOVA">
   <extension point="xbmc.service"
              library="service.py"
@@ -1140,7 +1140,7 @@ v1.0.1 (2019-08-06)
 - Fallback to playing channel uploads if no live stream is available
 - Add fallback method to load playlists when v3 API request cannot be made</news></extension>
 </addon>
-<addon id="service.stube.livetv.data" name="Stube Live TV Datenpaket" version="2026.09.17.1947" provider-name="box3">
+<addon id="service.stube.livetv.data" name="Stube Live TV Datenpaket" version="2026.09.17.1951" provider-name="box3">
   <requires>
     <import addon="xbmc.python" version="3.0.1"/>
   </requires>
