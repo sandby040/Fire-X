@@ -1,4 +1,4 @@
-# Stube NOVA Repository
+# Fire X
 
 Kodi-Repository-Ausgabe.
 
@@ -11,11 +11,11 @@ Repository-Installer:
 - repository.stube.nova/repository.stube.nova-1.0.0.zip
 
 Base URL in diesem Build:
-- https://sandby040.github.io/stube-kodi-repo/
+- https://sandby040.github.io/Fire-X/
 
 Neu bauen:
 ```powershell
-python build_kodi_repo.py --base-url https://DEINNAME.github.io/stube-kodi-repo/
+python build_kodi_repo.py --base-url https://sandby040.github.io/Fire-X/
 ```
 
 Hinweis:

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.stube.nova" name="Stube NOVA Repository" version="1.0.0" provider-name="box3">
-  <extension point="xbmc.addon.repository" name="Stube NOVA Repository">
+<addon id="repository.stube.nova" name="Fire X" version="1.0.0" provider-name="box3">
+  <extension point="xbmc.addon.repository" name="Fire X">
     <dir>
-      <info compressed="false">https://sandby040.github.io/stube-kodi-repo/addons.xml</info>
-      <checksum>https://sandby040.github.io/stube-kodi-repo/addons.xml.md5</checksum>
-      <datadir zip="true">https://sandby040.github.io/stube-kodi-repo/</datadir>
+      <info compressed="false">https://sandby040.github.io/Fire-X/addons.xml</info>
+      <checksum>https://sandby040.github.io/Fire-X/addons.xml.md5</checksum>
+      <datadir zip="true">https://sandby040.github.io/Fire-X/</datadir>
       <hashes>false</hashes>
     </dir>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="de_DE">Stube/NOVA Add-on Repository</summary>
-    <description lang="de_DE">Repository fuer die lokalen Stube/NOVA Add-ons und Updates.</description>
+    <summary lang="de_DE">Fire X Repository</summary>
+    <description lang="de_DE">Repository fuer Fire X Add-ons und Updates.</description>
     <platform>all</platform>
     <assets>
       <icon>icon.png</icon>
@@ -1126,7 +1126,7 @@ v1.0.1 (2019-08-06)
 - Fallback to playing channel uploads if no live stream is available
 - Add fallback method to load playlists when v3 API request cannot be made</news></extension>
 </addon>
-<addon id="service.stube.livetv.data" name="Stube Live TV Datenpaket" version="2026.09.17.0528" provider-name="box3">
+<addon id="service.stube.livetv.data" name="Stube Live TV Datenpaket" version="2026.09.17.0550" provider-name="box3">
   <requires>
     <import addon="xbmc.python" version="3.0.1"/>
   </requires>
