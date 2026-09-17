@@ -727,7 +727,7 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
     </assets>
   </extension>
 </addon>
-<addon id="plugin.video.stalker.macsimum" name="[COLORred]Stalker[/COLOR][COLORgrey]Mac[/COLOR]:simum" version="21.5.9" provider-name="[COLOR orange]mod_by_Adrian[/COLOR]">
+<addon id="plugin.video.stalker.macsimum" name="[COLORred]Stalker[/COLOR][COLORgrey]Mac[/COLOR]:simum" version="21.5.10" provider-name="[COLOR orange]mod_by_Adrian[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="3.0.1" />
     <import addon="script.module.requests" />
@@ -1140,7 +1140,7 @@ v1.0.1 (2019-08-06)
 - Fallback to playing channel uploads if no live stream is available
 - Add fallback method to load playlists when v3 API request cannot be made</news></extension>
 </addon>
-<addon id="service.stube.livetv.data" name="Stube Live TV Datenpaket" version="2026.09.17.2120" provider-name="box3">
+<addon id="service.stube.livetv.data" name="Stube Live TV Datenpaket" version="2026.09.18.0142" provider-name="box3">
   <requires>
     <import addon="xbmc.python" version="3.0.1"/>
   </requires>
