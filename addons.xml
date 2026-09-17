@@ -799,7 +799,7 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
 </addon>
 <addon id="service.stube.guard"
        name="NOVA Build Guard"
-       version="1.0.0"
+       version="1.0.1"
        provider-name="NOVA">
   <extension point="xbmc.service"
              library="service.py"
@@ -809,6 +809,20 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
     <summary lang="de_DE">Build-Schutz</summary>
     <description lang="de_DE">Beendet Kodi, wenn das Build nicht in der richtigen APK läuft.</description>
     <platform>android</platform>
+  </extension>
+</addon>
+<addon id="service.firex.updater" name="Fire X Updatepruefung" version="1.0.1" provider-name="Codex">
+  <requires>
+    <import addon="xbmc.python" version="3.0.1"/>
+  </requires>
+  <extension point="xbmc.service" library="service.py" start="startup"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="de_DE">Prueft Nova/Fire-X-Updates beim Start</summary>
+    <description lang="de_DE">Kontrollierter Fire-X-only-Updater. Kodi-Updates bleiben global gesperrt; dieser Dienst prueft nur die eigene Fire-X-Repo und installiert nur freigegebene Add-ons.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
   </extension>
 </addon>
 <addon id="script.ezmaintenanceplus" name="EZ Maintenance+" version="2023.01.09.0" provider-name="aenema, peno">
@@ -1126,7 +1140,7 @@ v1.0.1 (2019-08-06)
 - Fallback to playing channel uploads if no live stream is available
 - Add fallback method to load playlists when v3 API request cannot be made</news></extension>
 </addon>
-<addon id="service.stube.livetv.data" name="Stube Live TV Datenpaket" version="2026.09.17.0550" provider-name="box3">
+<addon id="service.stube.livetv.data" name="Stube Live TV Datenpaket" version="2026.09.17.1947" provider-name="box3">
   <requires>
     <import addon="xbmc.python" version="3.0.1"/>
   </requires>
