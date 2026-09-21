@@ -176,7 +176,7 @@
     </assets>
   </extension>
 </addon>
-<addon id="plugin.video.archiv.navigator" version="2026.05.02" name="Archiv Navigator" provider-name="Archiv Navigator-Team,mr-evil1">
+<addon id="plugin.video.archiv.navigator" version="2026.09.21" name="Archiv Navigator" provider-name="Archiv Navigator-Team,mr-evil1">
     <requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.requests"/>
@@ -727,7 +727,7 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
     </assets>
   </extension>
 </addon>
-<addon id="plugin.video.stalker.macsimum" name="[COLORred]Stalker[/COLOR][COLORgrey]Mac[/COLOR]:simum" version="21.5.10" provider-name="[COLOR orange]mod_by_Adrian[/COLOR]">
+<addon id="plugin.video.stalker.macsimum" name="[COLORred]Stalker[/COLOR][COLORgrey]Mac[/COLOR]:simum" version="21.5.11" provider-name="[COLOR orange]mod_by_Adrian[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="3.0.1" />
     <import addon="script.module.requests" />
@@ -811,7 +811,7 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
     <platform>android</platform>
   </extension>
 </addon>
-<addon id="service.firex.updater" name="Fire X Updatepruefung" version="1.0.1" provider-name="Codex">
+<addon id="service.firex.updater" name="Fire X Updatepruefung" version="1.0.2" provider-name="Codex">
   <requires>
     <import addon="xbmc.python" version="3.0.1"/>
   </requires>
@@ -1000,7 +1000,7 @@ v1.0.1 (2019-08-06)
 		<license>MIT</license>
 	</extension>
 </addon>
-<addon id="plugin.video.youtube" name="YouTube" version="7.4.3" provider-name="anxdpanic, bromix, MoojMidge">
+<addon id="plugin.video.youtube" name="YouTube" version="7.4.3.1" provider-name="anxdpanic, bromix, MoojMidge">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.27.1"/>
@@ -1140,7 +1140,7 @@ v1.0.1 (2019-08-06)
 - Fallback to playing channel uploads if no live stream is available
 - Add fallback method to load playlists when v3 API request cannot be made</news></extension>
 </addon>
-<addon id="service.stube.livetv.data" name="Stube Live TV Datenpaket" version="2026.09.18.0142" provider-name="box3">
+<addon id="service.stube.livetv.data" name="Stube Live TV Datenpaket" version="2026.09.21.1542" provider-name="box3">
   <requires>
     <import addon="xbmc.python" version="3.0.1"/>
   </requires>
