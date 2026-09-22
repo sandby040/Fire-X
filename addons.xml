@@ -1140,14 +1140,14 @@ v1.0.1 (2019-08-06)
 - Fallback to playing channel uploads if no live stream is available
 - Add fallback method to load playlists when v3 API request cannot be made</news></extension>
 </addon>
-<addon id="service.stube.livetv.data" name="Stube Live TV Datenpaket" version="2026.09.21.1542" provider-name="box3">
+<addon id="service.stube.livetv.data" name="Stube Live TV Datenpaket" version="2026.09.22.0308" provider-name="box3">
   <requires>
     <import addon="xbmc.python" version="3.0.1"/>
   </requires>
   <extension point="xbmc.service" library="resources/lib/service.py" start="startup"/>
   <extension point="xbmc.addon.metadata">
-    <summary lang="de_DE">Live-TV-Listen, EPG- und Bridge-Daten fuer Stube/NOVA</summary>
-    <description lang="de_DE">Spiegelt verwaltete Live-TV-Dateien aus dem Repository nach userdata/addon_data. Keine MAC-, Token- oder Session-Dateien.</description>
+    <summary lang="de_DE">Live-TV-Daten und HM-Hintergruende fuer Stube/NOVA</summary>
+    <description lang="de_DE">Spiegelt verwaltete Live-TV-Dateien sowie den HM-Hintergrundordner aus dem Repository nach userdata. Keine MAC-, Token- oder Session-Dateien.</description>
     <platform>all</platform>
     <assets>
       <icon>icon.png</icon>
