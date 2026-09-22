@@ -799,7 +799,7 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
 </addon>
 <addon id="service.stube.guard"
        name="NOVA Build Guard"
-       version="1.0.5"
+       version="1.0.6"
        provider-name="NOVA">
   <extension point="xbmc.service"
              library="service.py"
@@ -811,7 +811,7 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
     <platform>android</platform>
   </extension>
 </addon>
-<addon id="service.firex.updater" name="Fire X Updatepruefung" version="1.0.4" provider-name="Codex">
+<addon id="service.firex.updater" name="Fire X Updatepruefung" version="1.0.5" provider-name="Codex">
   <requires>
     <import addon="xbmc.python" version="3.0.1"/>
   </requires>
