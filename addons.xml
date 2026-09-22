@@ -1179,14 +1179,14 @@ v1.0.1 (2019-08-06)
 		</assets>
 	</extension>
 </addon>
-<addon id="service.stube.livetv.data" name="Stube Live TV Datenpaket" version="2026.09.22.0308" provider-name="box3">
+<addon id="service.stube.livetv.data" name="Stube Live TV Datenpaket" version="2026.09.22.0358" provider-name="box3">
   <requires>
     <import addon="xbmc.python" version="3.0.1"/>
   </requires>
   <extension point="xbmc.service" library="resources/lib/service.py" start="startup"/>
   <extension point="xbmc.addon.metadata">
-    <summary lang="de_DE">Live-TV-Daten und HM-Hintergruende fuer Stube/NOVA</summary>
-    <description lang="de_DE">Spiegelt verwaltete Live-TV-Dateien sowie den HM-Hintergrundordner aus dem Repository nach userdata. Keine MAC-, Token- oder Session-Dateien.</description>
+    <summary lang="de_DE">Live-TV-Daten fuer Stube/NOVA</summary>
+    <description lang="de_DE">Spiegelt ausschliesslich verwaltete Live-TV-Dateien aus dem Repository nach userdata. Lokale HM-Hintergruende sowie MAC-, Token- und Session-Dateien bleiben unberuehrt.</description>
     <platform>all</platform>
     <assets>
       <icon>icon.png</icon>
