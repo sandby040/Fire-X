@@ -811,7 +811,7 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
     <platform>android</platform>
   </extension>
 </addon>
-<addon id="service.firex.updater" name="Fire X Updatepruefung" version="1.0.6" provider-name="Codex">
+<addon id="service.firex.updater" name="Fire X Updatepruefung" version="1.0.7" provider-name="Codex">
   <requires>
     <import addon="xbmc.python" version="3.0.1"/>
   </requires>
