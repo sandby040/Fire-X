@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <addons>
 <addon id="repository.stube.nova" name="Fire X" version="1.0.0" provider-name="box3">
   <extension point="xbmc.addon.repository" name="Fire X">
@@ -18,13 +18,10 @@
     </assets>
   </extension>
 </addon>
-<addon id="plugin.video.mediabox.filmeundserien"
-       name="Filme und Serien"
-       version="22.00.950"
-       provider-name="@AdrianStube">
+<addon id="plugin.video.mediabox.filmeundserien" name="Filme und Serien" version="22.00.950" provider-name="@AdrianStube">
 
     <requires>
-        <import addon="xbmc.python" version="3.0.1"/>
+        <import addon="xbmc.python" version="3.0.1" />
     </requires>
 
     <extension point="xbmc.python.pluginsource" library="startup.py">
@@ -67,13 +64,10 @@
     </extension>
 
 </addon>
-<addon id="plugin.video.mediabox.stalker"
-       name="Stalker"
-       version="22.00.950"
-       provider-name="@AdrianStube">
+<addon id="plugin.video.mediabox.stalker" name="Stalker" version="22.00.950" provider-name="@AdrianStube">
 
     <requires>
-        <import addon="xbmc.python" version="3.0.1"/>
+        <import addon="xbmc.python" version="3.0.1" />
     </requires>
 
     <extension point="xbmc.python.pluginsource" library="startup.py">
@@ -93,13 +87,10 @@
     </extension>
 
 </addon>
-<addon id="plugin.video.mediabox.xxx"
-       name="XXX-Media-Box"
-       version="22.00.950"
-       provider-name="@AdrianStube">
+<addon id="plugin.video.mediabox.xxx" name="XXX-Media-Box" version="22.00.950" provider-name="@AdrianStube">
 
     <requires>
-        <import addon="xbmc.python" version="3.0.1"/>
+        <import addon="xbmc.python" version="3.0.1" />
     </requires>
 
     <extension point="xbmc.python.pluginsource" library="startup.py">
@@ -121,7 +112,7 @@
 </addon>
 <addon id="script.mediabox" version="22.00.950" name="mediabox.helper" provider-name="@AdrianStube">
     <requires>
-        <import addon="xbmc.python" version="3.0.1"/>
+        <import addon="xbmc.python" version="3.0.1" />
     </requires>
 	<extension point="xbmc.python.script" library="startup.py">
         <provides>executable</provides>
@@ -137,7 +128,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="plugin.video.streaming.archiv" name="Streaming Archiv" version="99.99.99.9" provider-name="Streaming Archiv-Team">
+<addon id="plugin.video.streaming.archiv" name="Streaming Archiv" version="99.99.99.10" provider-name="Streaming Archiv-Team">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.requests" />
@@ -175,17 +166,16 @@
       <screenshot>resources/screenshot-04.jpg</screenshot>
     </assets>
   </extension>
-</addon>
-<addon id="plugin.video.archiv.navigator" version="2026.09.21" name="Archiv Navigator" provider-name="Archiv Navigator-Team,mr-evil1">
+</addon><addon id="plugin.video.archiv.navigator" version="2026.09.22" name="Archiv Navigator" provider-name="Archiv Navigator-Team,mr-evil1">
     <requires>
-		<import addon="xbmc.python" version="3.0.0"/>
-		<import addon="script.module.requests"/>
-		<import addon="script.module.six"/>
-		<import addon="script.module.resolveurl"/>
-		<import addon="script.module.inputstreamhelper"/>
-		<import addon="script.module.cloudscraper"/>
-		<import addon="script.module.cloudscraper2" optional="true"/>
-		<import addon="script.module.pydevd" optional="true"/>
+		<import addon="xbmc.python" version="3.0.0" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.six" />
+		<import addon="script.module.resolveurl" />
+		<import addon="script.module.inputstreamhelper" />
+		<import addon="script.module.cloudscraper" />
+		<import addon="script.module.cloudscraper2" optional="true" />
+		<import addon="script.module.pydevd" optional="true" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default_run.py">
         <provides>video</provides>
@@ -266,25 +256,18 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
 - Archiv Navigator untersützt nun auch Kodi 20
         </news>
     </extension>
-</addon>
-<addon
-  id="pvr.iptvsimple"
-  version="21.11.0"
-  name="IPTV Simple Client"
-  provider-name="nightik and Ross Nicholson">
+</addon><addon id="pvr.iptvsimple" version="21.11.0" name="IPTV Simple Client" provider-name="nightik and Ross Nicholson">
   <requires>
-<import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
-<import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
-<import addon="kodi.binary.global.filesystem" minversion="1.1.7" version="1.1.8"/>
-<import addon="kodi.binary.global.network" minversion="1.0.0" version="1.0.4"/>
-<import addon="kodi.binary.global.tools" minversion="1.0.0" version="1.0.4"/>
-<import addon="kodi.binary.instance.pvr" minversion="8.2.0" version="8.3.0"/>
-    <import addon="inputstream.adaptive" minversion="21.0.0"/>
-    <import addon="inputstream.rtmp" minversion="21.0.0"/>
+<import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2" />
+<import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5" />
+<import addon="kodi.binary.global.filesystem" minversion="1.1.7" version="1.1.8" />
+<import addon="kodi.binary.global.network" minversion="1.0.0" version="1.0.4" />
+<import addon="kodi.binary.global.tools" minversion="1.0.0" version="1.0.4" />
+<import addon="kodi.binary.instance.pvr" minversion="8.2.0" version="8.3.0" />
+    <import addon="inputstream.adaptive" minversion="21.0.0" />
+    <import addon="inputstream.rtmp" minversion="21.0.0" />
   </requires>
-  <extension
-    point="kodi.pvrclient"
-    library_android="libpvr.iptvsimple.so"/>
+  <extension point="kodi.pvrclient" library_android="libpvr.iptvsimple.so" />
   <extension point="xbmc.addon.metadata">
     <platform>android-armv7</platform>
     <license>GPL-2.0-or-later</license>
@@ -297,7 +280,7 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
     <summary lang="az_AZ">IPTV dəstəyi üçün Kodi PVR əlavəsini yükləyin.[CR]https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
     <summary lang="be_BY">PVR-дапаўненне для Kodi для падтрымкі IPTV.</summary>
     <summary lang="bg_BG">Добавка за ПВР за поддръжка на IPTV. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="ca_ES">Complement PVR de Kodi per al suport d&apos;IPTV.</summary>
+    <summary lang="ca_ES">Complement PVR de Kodi per al suport d'IPTV.</summary>
     <summary lang="cs_CZ">Doplněk Kodi podpory IPTV PVR.</summary>
     <summary lang="cy_GB">Ychwanegyn recordydd Kodi ar gyfer cefnogi IPTV. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
     <summary lang="da_DK">Kodi PVR addon til IPTV support.</summary>
@@ -327,7 +310,7 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
     <summary lang="lv_LV">Kodi PVR pielikums IPTV atbalstam. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
     <summary lang="mk_MK">Kodi PVR додаток за IPTV. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
     <summary lang="ms_MY">Tambahan PVR Kodi untuk sokongan IPTV https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="mt_MT">PVR addon ta&apos; Kodi għall-IPTV. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
+    <summary lang="mt_MT">PVR addon ta' Kodi għall-IPTV. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
     <summary lang="nb_NO">Kodi PVR-tillegg for IPTV-støtte. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
     <summary lang="nl_NL">Kodi PVR-add-on voor IPTV-ondersteuning. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
     <summary lang="pl_PL">Klient telewizji dla telewizji internetowej. Więcej informacji o dodatku: https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
@@ -348,7 +331,7 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
     <description lang="af_ZA">IPTV Simple PVR kliënt ondersteun M3U speellyste, stroom van lewendige TV vir multisaai / unisaai bronne, luister na radio kanale en EPG.[CR]    [CR]Vir dokumentasie besoek: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/README.md[CR]    </description>
     <description lang="be_BY">IPTV Simple PVR Client падтрымлівае спісы прайгравання m3u, струменевае вяшчанне з аднаканальных і шматканальных крыніц, радыё і тэлегід.[CR]    [CR]Для прагляду дакументацыі наведайце: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/README.md[CR]    </description>
     <description lang="bg_BG">Прост клиент за ПВР за телевизия по Интернет. Поддържа списъци за възпроизвеждане във формат „m3u“, поточно предавана телевизия от източници с излъчване мултикаст и уникаст, слушане на радио канали и електронен програмен справочник.</description>
-    <description lang="ca_ES">Client senzill per a IPTV PVR compatible amb les llistes de reproducció m3u, transmissions en línia de TV en directe per als orígens difusió única o múltiple, escolta d&apos;emissores de ràdio i guia electrònica de programació (EPG);    </description>
+    <description lang="ca_ES">Client senzill per a IPTV PVR compatible amb les llistes de reproducció m3u, transmissions en línia de TV en directe per als orígens difusió única o múltiple, escolta d'emissores de ràdio i guia electrònica de programació (EPG);    </description>
     <description lang="cs_CZ">Jednoduchý klient PVR pro IPTV podporuje seznamy stop m3u, streamování živého vysílání pro zdroje vícesměrového nebo jednosměrového vysílání, poslech rozhlasových stanic a televizní program.[CR]    [CR]Pro dokumentaci navštivte https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/README.md[CR]    </description>
     <description lang="cy_GB">Mae Cleient IPTV Simple PVR yn cynnal rhestrau m3u, ffrydio Teledu Byw o ffynonellau darlledu eang ac unigol, gwrando ar sianeli Radio ac Amserlen Rhaglenni.</description>
     <description lang="da_DK">IPTV Simple PVR klient understøtter m3u playlister, streaming af direkte tv til multicast-/unicast-kilder, lytning til radiokanaler og EPG.[CR][CR]For dokumentation besøg: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/README.md    </description>
@@ -363,7 +346,7 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
     <description lang="es_MX">IPTV Simple PVR Client soporta listas de reproducción m3u, streaming de Live TV para fuentes multicast / unicast, escuchando para canales de radio y EPG.</description>
     <description lang="fi_FI">IPTV Simple PVR-pääte tukee m3u-toistolistoja, televisiolähetysten multicast-/unicast-suoratoistoa, radiokanavien kuuntelua sekä ohjelmaopasta.[CR]    [CR]Ohjeita löydät täältä: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/README.md[CR]    </description>
     <description lang="fr_CA">Client de numériscope simple pour IPTV, prenant en charge les listes de lecture m3u, la diffusion en continu des télés en direct pour les sources de multidiffusion et de monodiffusion, l’écoute de chaînes radio, et le GÉP.</description>
-    <description lang="fr_FR">Le client IPTV Simple PVR prend en charge les listes de lecture m3u, le streaming de la télévision en direct pour les sources multidiffusion/monodiffusion, l&apos;écoute des chaînes de radio et de l&apos;EPG.[CR] [CR]Pour la documentation, visitez : https://github.com/kodi-pvr/pvr.iptvsimple /blob/Matrix/README.md[CR]    </description>
+    <description lang="fr_FR">Le client IPTV Simple PVR prend en charge les listes de lecture m3u, le streaming de la télévision en direct pour les sources multidiffusion/monodiffusion, l'écoute des chaînes de radio et de l'EPG.[CR] [CR]Pour la documentation, visitez : https://github.com/kodi-pvr/pvr.iptvsimple /blob/Matrix/README.md[CR]    </description>
     <description lang="gl_ES">O cliente PVR simple de IPTV soporta listaxes m3u, transmisión de TV en directo para fontes multicast/unicast, escoita de canles de Radio e Guía.</description>
     <description lang="he_IL">IPTV Simple PVR Client תומך ברשימות השמעה של m3u, הזרמת טלוויזיה בשידור חי עבור מקורות מרובי שידור/חד שידור, האזנה לערוצי רדיו ולוח שידורים..[CR]    [CR]לתיעוד ניתן לבקר: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/README.md[CR]    </description>
     <description lang="hr_HR">IPTV Simple PVR klijent podržava m3u popise izvođenja, strujanje TV programa s multicast/unicast izvora, slušanje radio programa i elektroničke programske vodiče (EPG).    [CR]Za dokumentaciju posjetite: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/README.md[CR]    </description>
@@ -377,7 +360,7 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
     <description lang="lv_LV">IPTV vienkāršais PVR klients atbalsta m3u spēļsarakstus, tiešraides TV straumēšanu multiraides/uniraides avotiem, radio kanālu klausīšanos un EPG.</description>
     <description lang="mk_MK">IPTV Simple PVR Client поддржува m3u листи, гледање на Live TV од multicast/unicast извори, слушање Радио канали и EPG.</description>
     <description lang="ms_MY">Klien PVR IPTV Simple menyokong senarai audio visual m3u, penstriman TV Langsung untuk sumber satu siaran/berbilang-siaran, mendengar saluran Radio dan EPG.</description>
-    <description lang="mt_MT">IPTV Simple PVR Client jiflaħ għal playlists m3u, streaming ta&apos; TV Lajv għal sorsi multicast/unicast, smiegħ ta&apos; stazzjonijiet tar-Radju u EPG.</description>
+    <description lang="mt_MT">IPTV Simple PVR Client jiflaħ għal playlists m3u, streaming ta' TV Lajv għal sorsi multicast/unicast, smiegħ ta' stazzjonijiet tar-Radju u EPG.</description>
     <description lang="nb_NO">IPTV Simple PVR-klient støtter m3u-spillelister, strømming av direkte-TV, lytting til radiokanaler og programguider.</description>
     <description lang="nl_NL">IPTV Simple PVR cliënt ondersteunt m3u-afspeellijsten, streaming van live-TV voor multicast/unicastbronnen, luisteren naar radiozenders en EPG.</description>
     <description lang="pl_PL">Klient telewizji dla telewizji internetowej obsługuje listy odtwarzania m3u, transmisję kanałów radiowych i telewizyjnych ze źródeł punktowych i grupowych oraz funkcje przewodnika telewizyjnego.</description>
@@ -399,7 +382,7 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
     <disclaimer lang="bg_BG">Тази програма е нестабилна! Авторите не носят отговорност за неуспешно възпроизвеждане, некоректни часове в електронния програмен справочник, пропиляното време и други нежелани ефекти.</disclaimer>
     <disclaimer lang="ca_ES">Aquest programari és inestable! Els autors no es fan responsables de reproduccions fallides, horaris incorrectes a la guia electrònica de programació (EPG), hores perdudes o qualsevol altre efecte no desitjat.</disclaimer>
     <disclaimer lang="cs_CZ">Tento software není stabilní! Autoři nejsou žádným způsobem zodpovědní za neúspěšná přehrávání, chybné časy televizního programu, ztracený čas nebo jakékoliv jiné nežádoucí efekty.</disclaimer>
-    <disclaimer lang="cy_GB">Mae&apos;r feddalwedd hon yn fregus! Nid yw&apos;r awduron yn gyfrifol mewn unrhyw ffordd am fethu recordio, amseru gwallus, oriau wedi eu gwastraffu nac effeithiau annymunol eraill.</disclaimer>
+    <disclaimer lang="cy_GB">Mae'r feddalwedd hon yn fregus! Nid yw'r awduron yn gyfrifol mewn unrhyw ffordd am fethu recordio, amseru gwallus, oriau wedi eu gwastraffu nac effeithiau annymunol eraill.</disclaimer>
     <disclaimer lang="da_DK">Udviklerne er på ingen måde ansvarlig for mislykkede afspilninger, forkerte EPG-tider, spildte timer eller andre uønskede konsekvenser.</disclaimer>
     <disclaimer lang="de_DE">Die Autoren sind in keiner Weise verantwortlich für fehlgeschlagene Wiedergaben, falsche EPG-Zeiten, verschwendete Zeit oder unerwünschte Effekte jeglicher Art.</disclaimer>
     <disclaimer lang="el_GR">Ασταθές πρόγραμμα! Οι δημιουργοί δεν είναι σε καμία περίπτωση υπεύθυνοι για αποτυχημένες εγγραφές, λανθασμένους χρονοδιακόπτες, χαμένες ώρες, ή κάθε είδους ανεπιθύμητα αποτελέσματα.</disclaimer>
@@ -413,7 +396,7 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
     <disclaimer lang="eu_ES">Software hau ezegonkorra da! Egileak ez dira inolaz ere erantzule editen erreprodukzio akatsez, EPG denbora okerrez, ordu galduez edo beste edozein ondorio ezerosotaz.</disclaimer>
     <disclaimer lang="fi_FI">Tämä on epävakaa ohjelmisto! Sen kehittäjät eivät ole millään tavoin vastuussa epäonnistuneista toistoista, virheellisistä ohjelmaoppaan aikatauluista, hukatusta ajasta tai mistään muistakaan ei-toivotuista seurauksista.</disclaimer>
     <disclaimer lang="fr_CA">Ce logiciel est instable ! Les auteurs ne sont aucunement responsables des lectures défaillantes, d’horaires erronés du GÉP, des heures perdues ou tout autre effet indésirable.</disclaimer>
-    <disclaimer lang="fr_FR">Logiciel en cours d&apos;élaboration ! Les auteurs ne sont en aucun cas responsables de l&apos;échec des enregistrements, programmations défectueuses, temps perdu ou autres effets indésirables.</disclaimer>
+    <disclaimer lang="fr_FR">Logiciel en cours d'élaboration ! Les auteurs ne sont en aucun cas responsables de l'échec des enregistrements, programmations défectueuses, temps perdu ou autres effets indésirables.</disclaimer>
     <disclaimer lang="gl_ES">Este software non é estábel! Os autores non se fan responsábeis dos erros na reproducción, horarios incorrectos na Guía, horas vencidas, e otros efectos non desexados.</disclaimer>
     <disclaimer lang="he_IL">זוהי איננה הרחבה יציבה! המפתחים אינם אחראים על כשלון בניגון, זמנים שגויים במדריך השידורים, שעות מבוזבזות או כל תופעה לא רצויה אחרת.</disclaimer>
     <disclaimer lang="hr_HR">Ovo je nestabilan softver! Autori nisu ni na koji način odgovorni za neuspjelo snimanje, netočna zakazana snimanja, izgubljene sate, ili bilo koje druge neželjene učinke.</disclaimer>
@@ -427,7 +410,7 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
     <disclaimer lang="lv_LV">Šī ir nestabila programmatūra! Autori nav atbildīgi par neizdevušos atskaņošanu, nepareizu EPG laiku, iztērētām stundām vai jebkādiem citiem nevēlamiem efektiem.</disclaimer>
     <disclaimer lang="mk_MK">Ова е нестабилен софтвер! Авторите во никој случај не се одговорни за неуспешно гледање, неточни времиња во EPG, вашето потрошено време или било кои непосакувани ефекти.</disclaimer>
     <disclaimer lang="ms_MY">Perisian ini tidak stabi! Pengarang tidak bertanggungjawab atas kegagalan memainkan, pemasa EPG yang tidak betul, pembaziran masa atau sebarang kesan tidak diingini.</disclaimer>
-    <disclaimer lang="mt_MT">Dan il-programm mhuwiex stabbli! L-awturi m&apos;huma bl-ebda mod responsabbli għal daqq li ma jirnexxiex, ħinijiet tal-EPG żbaljati, siegħat moħlija jew kwalunkwe effet ieħor mhux mixtieq.</disclaimer>
+    <disclaimer lang="mt_MT">Dan il-programm mhuwiex stabbli! L-awturi m'huma bl-ebda mod responsabbli għal daqq li ma jirnexxiex, ħinijiet tal-EPG żbaljati, siegħat moħlija jew kwalunkwe effet ieħor mhux mixtieq.</disclaimer>
     <disclaimer lang="nb_NO">Dette er et ustabilt program! Skaperne er på ingen måte ansvarlig for feil ved avspilling, feil programguidetider, bortkastede timer eller andre uønskede ting.</disclaimer>
     <disclaimer lang="nl_NL">De auteurs zijn op geen enkele wijze aansprakelijk voor mislukte opnames, incorrecte EPG-tijden, verspilde uren, of enig ander ongewild neveneffect..</disclaimer>
     <disclaimer lang="pl_PL">Oprogramowanie nadal jest w fazie rozwoju i jest niestabilne! Autorzy w żaden sposób nie są odpowiedzialni za nieudane nagrania, błędy w harmonogramie nagrań, zmarnowany czas ani jakiekolwiek inne niepożądane efekty.</disclaimer>
@@ -446,20 +429,14 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
     <disclaimer lang="zh_TW">這是測試中的軟體！原創作者無法針對以下情況負責：包括播放失敗，不正確的電子節目表，多餘的時數，或任何不可預期的不良影響。</disclaimer>
   </extension>
 </addon>
-<addon
-  id="pvr.stalker"
-  version="99.1.2"
-  name="Stalker Client"
-  provider-name="Jamal Edey">
+<addon id="pvr.stalker" version="99.1.2" name="Stalker Client" provider-name="Jamal Edey">
   <requires>
-<import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
-<import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
-<import addon="kodi.binary.global.filesystem" minversion="1.1.7" version="1.1.8"/>
-<import addon="kodi.binary.global.tools" minversion="1.0.0" version="1.0.4"/>
-<import addon="kodi.binary.instance.pvr" minversion="8.2.0" version="8.3.0"/></requires>
-  <extension
-    point="kodi.pvrclient"
-    library_android="libpvr.stalker.so"/>
+<import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2" />
+<import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5" />
+<import addon="kodi.binary.global.filesystem" minversion="1.1.7" version="1.1.8" />
+<import addon="kodi.binary.global.tools" minversion="1.0.0" version="1.0.4" />
+<import addon="kodi.binary.instance.pvr" minversion="8.2.0" version="8.3.0" /></requires>
+  <extension point="kodi.pvrclient" library_android="libpvr.stalker.so" />
   <extension point="xbmc.addon.metadata">
     <platform>android-armv7</platform>
     <license>GPL-2.0-or-later</license>
@@ -480,10 +457,10 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
     <summary lang="en_US">PVR Client to connect Kodi to Stalker Middleware</summary>
     <summary lang="es_ES">Cliente PVR para conectar Kodi al Middleware Stalker</summary>
     <summary lang="es_MX">Cliente PVR para conectar Kodi al Stalker Middleware</summary>
-    <summary lang="et_EE">PVR&apos;i klient ühendamaks Kodi Stalker Middleware&apos;ga</summary>
+    <summary lang="et_EE">PVR'i klient ühendamaks Kodi Stalker Middleware'ga</summary>
     <summary lang="fi_FI">Stalker Middleware PVR-pääte Kodille.</summary>
     <summary lang="fr_CA">Client de numériscope pour connecter Kodi à l’intergiciel Stalker</summary>
-    <summary lang="fr_FR">Client enregistreur vidéo (PVR) pour connecter Kodi à l&apos;intergiciel Stalker</summary>
+    <summary lang="fr_FR">Client enregistreur vidéo (PVR) pour connecter Kodi à l'intergiciel Stalker</summary>
     <summary lang="gl_ES">Cliente PVR para conectar Kodi a un Stalker Middleware</summary>
     <summary lang="he_IL">לקוח טלוויזיה חיה עבור Stalker Middleware</summary>
     <summary lang="hr_HR">PVR klijent za povezivanje Kodija na Stalker Middleware</summary>
@@ -509,7 +486,7 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
     <summary lang="sr_RS@latin">PVR Klijent za povezivanje Kodi sa Stalker Middleware</summary>
     <summary lang="sv_SE">PVR-klient för anslutning av Kodi till Stalker Middleware</summary>
     <summary lang="szl">Klijynt telewizyje dlŏ platformy Stalker Middleware</summary>
-    <summary lang="tr_TR">PVR İstemcisi Kodi&apos;yi Stalker Middleware&apos;e bağlar</summary>
+    <summary lang="tr_TR">PVR İstemcisi Kodi'yi Stalker Middleware'e bağlar</summary>
     <summary lang="vi_VN">Trình PVR để kết nối Kodi với Stalker Middleware</summary>
     <summary lang="zh_CN">Kodi 连接 Stalker Middleware 的 PVR 客户端</summary>
     <summary lang="zh_TW">連接至 Stalker Middleware 的Kodi PVR用戶端</summary>
@@ -525,10 +502,10 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
     <description lang="en_US">PVR Client to connect Kodi to Stalker Middleware</description>
     <description lang="es_ES">Cliente PVR para conectar Kodi al Middleware Stalker</description>
     <description lang="es_MX">Cliente PVR para conectar Kodi al Stalker Middleware</description>
-    <description lang="et_EE">PVR&apos;i klient ühendamaks Kodi Stalker Middleware&apos;ga</description>
+    <description lang="et_EE">PVR'i klient ühendamaks Kodi Stalker Middleware'ga</description>
     <description lang="fi_FI">Stalker Middleware PVR-pääte Kodille.</description>
     <description lang="fr_CA">Client de numériscope pour connecter Kodi à l’intergiciel Stalker</description>
-    <description lang="fr_FR">Client enregistreur vidéo (PVR) pour connecter Kodi à l&apos;intergiciel Stalker</description>
+    <description lang="fr_FR">Client enregistreur vidéo (PVR) pour connecter Kodi à l'intergiciel Stalker</description>
     <description lang="gl_ES">Cliente PVR que conecta Kodi a un Stalker Middleware</description>
     <description lang="he_IL">לקוח טלוויזיה חיה עבור Stalker Middleware</description>
     <description lang="hr_HR">PVR klijent za povezivanje Kodija na Stalker Middleware</description>
@@ -554,7 +531,7 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
     <description lang="sr_RS@latin">PVR Klijent za povezivanje Kodi sa Stalker Middleware</description>
     <description lang="sv_SE">PVR-klient för anslutning av Kodi till Stalker Middleware</description>
     <description lang="szl">Klijynt telewizyje dlŏ platformy Stalker Middleware</description>
-    <description lang="tr_TR">PVR İstemcisi Kodi&apos;yi Stalker Middleware&apos;e bağlar</description>
+    <description lang="tr_TR">PVR İstemcisi Kodi'yi Stalker Middleware'e bağlar</description>
     <description lang="vi_VN">Trình PVR để kết nối Kodi với Stalker Middleware</description>
     <description lang="zh_CN">Kodi 连接 Stalker Middleware 的 PVR 客户端</description>
     <description lang="zh_TW">連接至 Stalker Middleware 的Kodi PVR用戶端</description>
@@ -562,7 +539,7 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
     <disclaimer lang="bg_BG">Тази програма е нестабилна! Авторите не носят отговорност за неуспешно записване, некоректни броячи, пропиляно време и други нежелани ефекти.</disclaimer>
     <disclaimer lang="ca_ES">Això és programari inestable! Els autors no són de cap manera responsables dels enregistraments que han fallat, temporitzadors incorrectes, hores perdudes, o qualssevol altres efectes no desitjats.</disclaimer>
     <disclaimer lang="cs_CZ">Tento software není stabilní! Autoři nejsou žádným způsobem zodpovědní za neúspěšná nahrávání, chybné časovače, ztracený čas nebo jakékoliv jiné nežádoucí výsledky.</disclaimer>
-    <disclaimer lang="cy_GB">Mae hwn yn feddalwedd ansad! Nid yw&apos;r awduron yn gyfrifol mewn unrhyw ffordd am fethu recordio, amseru gwallus, oriau wedi eu gwastraffu nac effeithiau anymunol eraill.</disclaimer>
+    <disclaimer lang="cy_GB">Mae hwn yn feddalwedd ansad! Nid yw'r awduron yn gyfrifol mewn unrhyw ffordd am fethu recordio, amseru gwallus, oriau wedi eu gwastraffu nac effeithiau anymunol eraill.</disclaimer>
     <disclaimer lang="da_DK">Denne software er ustabil. Udviklerne er på ingen måde ansvarlige for mislykkede optagelser, fejlagtige timere, spildte timer eller andre uønskede konsekvenser.</disclaimer>
     <disclaimer lang="de_DE">Diese Software ist noch in der Entwicklung! Die Autoren sind nicht für fehlgeschlagene Aufnahmen, falsche Timer, verschwendete Zeit oder andere ungewollte Effekte verantwortlich.</disclaimer>
     <disclaimer lang="el_GR">Ασταθές πρόγραμμα! Οι δημιουργοί δεν είναι σε καμία περίπτωση υπεύθυνοι για αποτυχημένες εγγραφές, λανθασμένους χρονοδιακόπτες, χαμένες ώρες, ή κάθε είδους ανεπιθύμητα αποτελέσματα.</disclaimer>
@@ -577,7 +554,7 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
     <disclaimer lang="eu_ES">Software hau ezegonkorra da! Egilea ez da arduratzen grabazio-erroreetaz, kronometro-erroreetaz, ordu galduetaz edo beste edozein ondorio ezerosoetaz.</disclaimer>
     <disclaimer lang="fi_FI">Tämä on epävakaa ohjelmisto! Sen kehittäjät eivät ole millään tavoin vastuussa epäonnistuneista tallennuksista, virheellisistä ajastuksista, hukatusta ajasta tai mistään muistakaan ei-toivotuista seurauksista.</disclaimer>
     <disclaimer lang="fr_CA">Ce logiciel est instable ! Les auteurs ne sont aucunement responsables des enregistrements défaillants, des minuteries erronées, des heures perdues ou tout autre effet indésirable.</disclaimer>
-    <disclaimer lang="fr_FR">Logiciel en cours d&apos;élaboration ! Les auteurs ne sont en aucun cas responsables de l&apos;échec des enregistrements, programmations défectueuses, temps perdu ou autres effets indésirables.</disclaimer>
+    <disclaimer lang="fr_FR">Logiciel en cours d'élaboration ! Les auteurs ne sont en aucun cas responsables de l'échec des enregistrements, programmations défectueuses, temps perdu ou autres effets indésirables.</disclaimer>
     <disclaimer lang="gl_ES">Software non estable, os autores non se fan responsábeis dos erros na gravacións, temporizadores incorrectos, e outros efectos non desexados.</disclaimer>
     <disclaimer lang="he_IL">זוהי איננה הרחבה יציבה! המפתחים אינם אחראים על כשלון בניגון, זמנים שגויים במדריך השידורים, שעות מבוזבזות או כל תופעה לא רצויה אחרת.</disclaimer>
     <disclaimer lang="hr_HR">Ovo je nestabilan softver! Autori nisu ni na koji način odgovorni za neuspjelo snimanje, netočna zakazana snimanja, izgubljene sate, ili bilo koje druge neželjene učinke.</disclaimer>
@@ -593,7 +570,7 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
     <disclaimer lang="mk_MK">Ова е нестабилен софтвер! Авторите на ниту еден начин не одговараат за неуспешни снимки, неточни тајмери, потрошени часови, или било кои други несакани ефекти.</disclaimer>
     <disclaimer lang="mn_MN">Тус програм нь гүйцэд хийгдэж дуусаагүй! Зохиогч нь алдаатай бичлэг, цагийн буруу хөтлөлт, алдагдсан цаг хугацаа эсвэл бусад ямар нэгэн хүсээгүй үр дүнд хариуцлага хүлээхгүй.</disclaimer>
     <disclaimer lang="ms_MY">Ini merupakan perisian tidak stabil! Pengarang tidak bertanggungjawab atas kegagalan rakaman, pemasa tidak betul, masa yang dibazirkan, atau apa jua kesan yang tidak dikehendaki.</disclaimer>
-    <disclaimer lang="mt_MT">Dan il-programm mhuwiex stabbli! L-Awturi m&apos;humiex responsabbli bl-ebda mod għal rekordings li ma jirnexxewx, arloġġi żbaljati, siegħat moħlija, jew kwalunkwe effett ieħor mhux mixtieq.</disclaimer>
+    <disclaimer lang="mt_MT">Dan il-programm mhuwiex stabbli! L-Awturi m'humiex responsabbli bl-ebda mod għal rekordings li ma jirnexxewx, arloġġi żbaljati, siegħat moħlija, jew kwalunkwe effett ieħor mhux mixtieq.</disclaimer>
     <disclaimer lang="nb_NO">Dette er ustabil programvare! Forfatterne er på ingen måte ansvarlige for feilaktig opptak, uriktige tidsur, bortkastet tid, eller alle andre uønskede følger.</disclaimer>
     <disclaimer lang="nl_NL">Dit is instabiele software! De makers zijn op geen enkele wijze verantwoordelijk voor foutieve opnames, incorrecte timers, verloren uren, of andere ongewenste bijverschijnselen.</disclaimer>
     <disclaimer lang="pl_PL">Oprogramowanie nadal jest w fazie rozwoju i jest niestabilne! Autorzy w żaden sposób nie są odpowiedzialni za nieudane nagrania, błędy w harmonogramie nagrań, zmarnowany czas ani jakiekolwiek inne niepożądane efekty.</disclaimer>
@@ -621,8 +598,8 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
 </addon>
 <addon id="script.module.pvr" version="21.1.9" name="pvrscript" provider-name="Legacy">
     <requires>
-        <import addon="xbmc.python" version="3.0.1"/>
-		<import addon="pvr.stalker"/>
+        <import addon="xbmc.python" version="3.0.1" />
+		<import addon="pvr.stalker" />
     </requires>
 	<extension point="xbmc.python.script" library="startup.py">
         <provides>executable</provides>
@@ -797,25 +774,19 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
     <platform>all</platform>
   </extension>
 </addon>
-<addon id="service.stube.guard"
-       name="NOVA Build Guard"
-       version="1.0.6"
-       provider-name="NOVA">
-  <extension point="xbmc.service"
-             library="service.py"
-             start="startup" />
+<addon id="service.stube.guard" name="NOVA Build Guard" version="1.0.7" provider-name="NOVA">
+  <extension point="xbmc.service" library="service.py" start="startup" />
 
   <extension point="xbmc.addon.metadata">
     <summary lang="de_DE">Build-Schutz</summary>
     <description lang="de_DE">Beendet Kodi, wenn das Build nicht in der richtigen APK läuft.</description>
     <platform>android</platform>
   </extension>
-</addon>
-<addon id="service.firex.updater" name="Fire X Updatepruefung" version="1.0.7" provider-name="Codex">
+</addon><addon id="service.firex.updater" name="Fire X Updatepruefung" version="1.1.2" provider-name="Codex">
   <requires>
-    <import addon="xbmc.python" version="3.0.1"/>
+    <import addon="xbmc.python" version="3.0.1" />
   </requires>
-  <extension point="xbmc.service" library="service.py" start="startup"/>
+  <extension point="xbmc.service" library="service.py" start="startup" />
   <extension point="xbmc.addon.metadata">
     <summary lang="de_DE">Prueft Nova/Fire-X-Updates beim Start</summary>
     <description lang="de_DE">Kontrollierter Fire-X-only-Updater. Kodi-Updates bleiben global gesperrt; dieser Dienst prueft nur die eigene Fire-X-Repo und installiert nur freigegebene Add-ons.</description>
@@ -824,8 +795,7 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
       <icon>icon.png</icon>
     </assets>
   </extension>
-</addon>
-<addon id="script.ezmaintenanceplus" name="EZ Maintenance+" version="2023.01.09.0" provider-name="aenema, peno">
+</addon><addon id="script.ezmaintenanceplus" name="EZ Maintenance+" version="2023.01.09.0" provider-name="aenema, peno">
   <requires>
     <import addon="script.module.requests" version="1.0.0" />
   </requires>
@@ -836,7 +806,7 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
   <extension point="xbmc.addon.metadata">
 	<summary>A Streamlined Utility Tool for Kodi</summary>
 	<description>No Bloatware, no Nonsense! Just Keep your Kodi sharp and clean with this utility tool... Now with a Custom Wizard.</description>
-    <language></language>
+    <language />
     <platform>all</platform>
     <license>The MIT License</license>
     <forum>-</forum>
@@ -876,7 +846,7 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
 </addon>
 <addon id="script.speedtester" name="Speed Tester" version="1.1.3+nexus.23" provider-name="Dr0idGuy, dagwieers">
   <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="xbmc.python" version="3.0.0" />
   </requires>
   <extension point="xbmc.python.script" library="resources/lib/addon_entry.py">
     <provides>executable</provides>
@@ -972,7 +942,7 @@ v1.0.1 (2019-08-06)
 </addon>
 <addon id="script.module.resolveurl.xxx" version="2.1.44" name="Adult Resolver SMR Extension" provider-name="gujal">
     <requires>
-        <!-- <import addon="xbmc.python" version="2.1.0"/> -->
+
         <import addon="script.module.resolveurl" version="5.1.0" />
     </requires>
     <extension point="xbmc.python.module" library="lib" />
@@ -1002,17 +972,17 @@ v1.0.1 (2019-08-06)
 </addon>
 <addon id="plugin.video.youtube" name="YouTube" version="7.4.3.1" provider-name="anxdpanic, bromix, MoojMidge">
     <requires>
-        <import addon="xbmc.python" version="3.0.0"/>
-        <import addon="script.module.requests" version="2.27.1"/>
-        <import addon="inputstream.adaptive" version="19.0.0"/>
-        <import addon="script.module.inputstreamhelper" version="0.2.2" optional="true"/>
-        <import addon="script.module.pysocks" optional="true"/>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" version="2.27.1" />
+        <import addon="inputstream.adaptive" version="19.0.0" />
+        <import addon="script.module.inputstreamhelper" version="0.2.2" optional="true" />
+        <import addon="script.module.pysocks" optional="true" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="resources/lib/plugin.py">
         <provides>video</provides>
     </extension>
-    <extension point="xbmc.service" library="resources/lib/service.py"/>
-    <extension point="xbmc.python.module" library="resources/lib/"/>
+    <extension point="xbmc.service" library="resources/lib/service.py" />
+    <extension point="xbmc.python.module" library="resources/lib/" />
     <extension point="xbmc.python.script" library="resources/lib/script.py">
         <provides>executable</provides>
     </extension>
@@ -1142,9 +1112,9 @@ v1.0.1 (2019-08-06)
 </addon>
 <addon id="weather.gismeteo" version="0.6.4+matrix.2" name="Gismeteo" provider-name="vl.maksime">
 	<requires>
-		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="xbmc.python" version="3.0.0" />
 	</requires>
-	<extension point="xbmc.python.weather" library="default.py"/>
+	<extension point="xbmc.python.weather" library="default.py" />
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Gismeteo Weather Forecast. Real time weather and detailed forecast all round the world</summary>
 		<summary lang="ru_RU">Прогноз погоды от ведущего погодного сервиса Gismeteo</summary>
@@ -1181,9 +1151,9 @@ v1.0.1 (2019-08-06)
 </addon>
 <addon id="service.stube.livetv.data" name="Stube Live TV Datenpaket" version="2026.09.22.0358" provider-name="box3">
   <requires>
-    <import addon="xbmc.python" version="3.0.1"/>
+    <import addon="xbmc.python" version="3.0.1" />
   </requires>
-  <extension point="xbmc.service" library="resources/lib/service.py" start="startup"/>
+  <extension point="xbmc.service" library="resources/lib/service.py" start="startup" />
   <extension point="xbmc.addon.metadata">
     <summary lang="de_DE">Live-TV-Daten fuer Stube/NOVA</summary>
     <description lang="de_DE">Spiegelt ausschliesslich verwaltete Live-TV-Dateien aus dem Repository nach userdata. Lokale HM-Hintergruende sowie MAC-, Token- und Session-Dateien bleiben unberuehrt.</description>
@@ -1193,4 +1163,17 @@ v1.0.1 (2019-08-06)
     </assets>
   </extension>
 </addon>
-</addons>
+<addon id="plugin.program.nova.installer" name="N3 – Nova Updater" version="1.0.6" provider-name="Nova, OpenWizard contributors">
+  <requires><import addon="xbmc.python" version="3.0.0" /></requires>
+  <extension point="xbmc.python.pluginsource" library="default.py"><provides>executable</provides></extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="de_DE">Nova Build-Installer</summary>
+    <description lang="de_DE">Eigenständiger Nova Build-Installer ohne Wartungsfunktionen und ohne automatischen Startdienst. Sicherer Skin-Abschluss und begrenzter Diagnosebericht.</description>
+    <platform>all</platform>
+    <license>GPL-2.0-or-later</license>
+    <reuselanguageinvoker>false</reuselanguageinvoker>
+    <source>https://github.com/sandby040/N2026</source>
+    <news>1.0.6: Vollständige Übernahme aller Build-Addons (inkl. Archiv-Navigator) und Erhalt der persönlichen Favoriten (favourites.xml) wie bei OpenWizard</news>
+    <assets><icon>icon.png</icon><fanart>fanart.png</fanart></assets>
+  </extension>
+</addon></addons>
