@@ -128,7 +128,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="plugin.video.streaming.archiv" name="Streaming Archiv" version="99.99.99.10" provider-name="Streaming Archiv-Team">
+<addon id="plugin.video.streaming.archiv" name="Streaming Archiv" version="1.0.0" provider-name="Streaming Archiv-Team">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.requests" />
@@ -782,7 +782,7 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
     <description lang="de_DE">Beendet Kodi, wenn das Build nicht in der richtigen APK läuft.</description>
     <platform>android</platform>
   </extension>
-</addon><addon id="service.firex.updater" name="Fire X Updatepruefung" version="1.1.2" provider-name="Codex">
+</addon><addon id="service.firex.updater" name="Fire X Updatepruefung" version="1.1.3" provider-name="Codex">
   <requires>
     <import addon="xbmc.python" version="3.0.1" />
   </requires>

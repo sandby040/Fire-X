@@ -1,6 +1,10 @@
 # Fire X
 
 Stand 03.10.2026: N3 (plugin.program.nova.installer) ist enthalten.
+Streaming-Archiv beginnt auf Nutzerwunsch neu bei 1.0.0. Updater 1.1.3 enthält
+eine ausschließlich für dieses Add-on geltende Migration von 99.99.99.x nach
+1.x. Keine allgemeine Downgrade-Freigabe. Alte Clients aktualisieren zuerst den
+Updater und übernehmen beim folgenden Start die normale Streaming-Version.
 Updates ersetzen vollständige Add-on-Programmordner nach ZIP-Prüfung und mit
 Rücknahme bei fehlgeschlagenem Austausch. Stalker-Portal und Talker 3 behalten
 den bisherigen Datei-Overlay-Modus. Benutzerprofile, Favoriten, MAC/Token,
