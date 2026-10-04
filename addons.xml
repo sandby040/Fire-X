@@ -657,7 +657,7 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
   </extension>
 
 </addon>
-<addon id="plugin.video.vodkool" name="KOOL.TO (Ultimate)" version="2.0.5" provider-name="Kato14,mr-evil1">
+<addon id="plugin.video.vodkool" name="KOOL.TO (Ultimate)" version="2.0.6" provider-name="Kato14,mr-evil1">
   <requires>
     <import addon="script.module.requests" />
     <import addon="inputstream.ffmpegdirect" />
