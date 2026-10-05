@@ -703,54 +703,6 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
     </assets>
   </extension>
 </addon>
-<addon id="plugin.video.stalker.macsimum" name="[COLORred]Stalker[/COLOR][COLORgrey]Mac[/COLOR]:simum" version="21.5.11" provider-name="[COLOR orange]mod_by_Adrian[/COLOR]">
-  <requires>
-    <import addon="xbmc.python" version="3.0.1" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.infotagger" />
-  <import addon="service.stube.livetv.data" version="0.0.0" /></requires>
-  <extension point="xbmc.python.pluginsource" library="addon_run.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <reuselanguageinvoker>true</reuselanguageinvoker>
-    <platform>all</platform>
-    <summary />
-    <description lang="de">STALKER PORTAL...LiveTV, Movies, TVShows 4 KODi</description>
-    <platform>all</platform>
-    <assets>
-      <icon>resources/icon.png</icon>
-      <fanart>resources/fanart.jpg</fanart>
-      <screenshot>resources/media/screenshots/screenshot1.jpg</screenshot>
-      <screenshot>resources/media/screenshots/screenshot2.jpg</screenshot>
-      <screenshot>resources/media/screenshots/screenshot3.jpg</screenshot>
-    </assets>
-  </extension>
-</addon>
-<addon id="plugin.video.stalker.macsimum.talker3" name="[Talker3] [COLORred]Stalker[/COLOR][COLORgrey]Mac[/COLOR]:simum" version="21.00.945" provider-name="[COLOR orange]mod_by_Adrian[/COLOR]">
-	<requires>
-		<import addon="xbmc.python" version="3.0.1" />
-		<import addon="script.module.requests" />
-	    <import addon="script.module.infotagger" />
-	<import addon="service.stube.livetv.data" version="0.0.0" /></requires>
-	<extension point="xbmc.python.pluginsource" library="addon_run.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<reuselanguageinvoker>true</reuselanguageinvoker>
-		<platform>all</platform>
-		<summary />
-		<description lang="de">STALKER PORTAL...LiveTV, Movies, TVShows 4 KODi</description>
-		<platform>all</platform>
-		<assets>
-            <icon>resources/icon.png</icon>
-            <fanart>resources/fanart.jpg</fanart>
-            <screenshot>resources/media/screenshots/screenshot1.jpg</screenshot>
-            <screenshot>resources/media/screenshots/screenshot2.jpg</screenshot>
-            <screenshot>resources/media/screenshots/screenshot3.jpg</screenshot>
-        </assets>
-    </extension>
-</addon>
 <addon id="script.codex.livetv.handshake" name="Live TV Handshake" version="1.0.0" provider-name="Codex">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
@@ -781,7 +733,7 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
     <description lang="de_DE">Beendet Kodi, wenn das Build nicht in der richtigen APK läuft.</description>
     <platform>android</platform>
   </extension>
-</addon><addon id="service.firex.updater" name="Fire X Updatepruefung" version="1.1.4" provider-name="Codex">
+</addon><addon id="service.firex.updater" name="Fire X Updatepruefung" version="1.1.5" provider-name="Codex">
   <requires>
     <import addon="xbmc.python" version="3.0.1" />
   </requires>
