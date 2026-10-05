@@ -1175,4 +1175,26 @@ v1.0.1 (2019-08-06)
     <news>1.0.6: Vollständige Übernahme aller Build-Addons (inkl. Archiv-Navigator) und Erhalt der persönlichen Favoriten (favourites.xml) wie bei OpenWizard</news>
     <assets><icon>icon.png</icon><fanart>fanart.png</fanart></assets>
   </extension>
+</addon><addon id="plugin.video.kodiboxtv" name="Kodibox TV" version="2028.08.29.4" provider-name="Fire X">
+	<requires>
+		<import addon="xbmc.python" version="3.0.1" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.resolveurl" />
+		<import addon="script.module.dateutil" />
+		<import addon="inputstream.adaptive" /> 
+		<import addon="inputstream.ffmpegdirect" /> 
+		<import addon="script.module.infotagger" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="resources/main.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.python.module" library="resources" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">Kodibox TV</summary>
+		<description lang="de_DE">Video-Add-on für Live-TV, Filme und Serien mit VAVOO Quellen.</description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
 </addon></addons>
