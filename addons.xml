@@ -1114,7 +1114,7 @@ v1.0.1 (2019-08-06)
     </assets>
   </extension>
 </addon>
-<addon id="plugin.program.nova.installer" name="N3 – Nova Updater" version="1.0.6" provider-name="Nova, OpenWizard contributors">
+<addon id="plugin.program.nova.installer" name="N3 – Nova Updater" version="1.0.9" provider-name="Nova, OpenWizard contributors">
   <requires><import addon="xbmc.python" version="3.0.0" /></requires>
   <extension point="xbmc.python.pluginsource" library="default.py"><provides>executable</provides></extension>
   <extension point="xbmc.addon.metadata">
@@ -1124,7 +1124,7 @@ v1.0.1 (2019-08-06)
     <license>GPL-2.0-or-later</license>
     <reuselanguageinvoker>false</reuselanguageinvoker>
     <source>https://github.com/sandby040/N2026</source>
-    <news>1.0.6: Vollständige Übernahme aller Build-Addons (inkl. Archiv-Navigator) und Erhalt der persönlichen Favoriten (favourites.xml) wie bei OpenWizard</news>
+    <news>1.0.9: Automatischer Schutz aller Fire-X- und Stalker-Add-ons vor Bereinigung. Garantiertes Nachinstallieren aller fehlenden Fire-X-Add-ons direkt aus dem Repository. Absicherung der Stalker-EPG-Ordnerstrukturen.</news>
     <assets><icon>icon.png</icon><fanart>fanart.png</fanart></assets>
   </extension>
 </addon><addon id="plugin.video.kodiboxtv" name="Kodibox TV" version="2028.08.29.4" provider-name="Fire X">
