@@ -723,7 +723,7 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
     <platform>all</platform>
   </extension>
 </addon>
-<addon id="service.stube.guard" name="NOVA Build Guard" version="1.0.9" provider-name="NOVA">
+<addon id="service.stube.guard" name="NOVA Build Guard" version="1.1.0" provider-name="NOVA">
   <extension point="xbmc.service" library="service.py" start="startup" />
 
   <extension point="xbmc.addon.metadata">
