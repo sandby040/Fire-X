@@ -1110,7 +1110,7 @@ v1.0.1 (2019-08-06)
       <icon>icon.png</icon>
     </assets>
   </extension>
-</addon><addon id="plugin.program.nova.installer" name="N3 – Nova Updater" version="1.1.0" provider-name="Nova, OpenWizard contributors">
+</addon><addon id="plugin.program.nova.installer" name="N3 – Nova Updater" version="1.1.1" provider-name="Nova, OpenWizard contributors">
   <requires><import addon="xbmc.python" version="3.0.0" /></requires>
   <extension point="xbmc.python.pluginsource" library="default.py"><provides>executable</provides></extension>
   <extension point="xbmc.addon.metadata">
@@ -1120,7 +1120,7 @@ v1.0.1 (2019-08-06)
     <license>GPL-2.0-or-later</license>
     <reuselanguageinvoker>false</reuselanguageinvoker>
     <source>https://github.com/sandby040/N2026</source>
-    <news>1.1.0: Aktualisierte Installationsanleitung (3 Sekunden / 2 Minuten / 3 Sekunden) und Abschluss-Dialog.</news>
+    <news>1.1.0: Saubere Übernahme aller Build-Datenbanken (PVR/EPG/Addons), Auto-Aktivierung aller Live-TV-Addons und angepasste Neustart-Anleitung.</news>
     <assets><icon>icon.png</icon><fanart>fanart.png</fanart></assets>
   </extension>
 </addon><addon id="plugin.video.kodiboxtv" name="Kodibox TV" version="2028.08.29.4" provider-name="Fire X">
