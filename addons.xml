@@ -723,7 +723,7 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
     <platform>all</platform>
   </extension>
 </addon>
-<addon id="service.stube.guard" name="NOVA Build Guard" version="1.0.8" provider-name="NOVA">
+<addon id="service.stube.guard" name="NOVA Build Guard" version="1.0.9" provider-name="NOVA">
   <extension point="xbmc.service" library="service.py" start="startup" />
 
   <extension point="xbmc.addon.metadata">
@@ -731,7 +731,7 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
     <description lang="de_DE">Beendet Kodi, wenn das Build nicht in der richtigen APK läuft.</description>
     <platform>android</platform>
   </extension>
-</addon><addon id="service.firex.updater" name="Fire X Updatepruefung" version="1.1.6" provider-name="Codex">
+</addon><addon id="service.firex.updater" name="Fire X Updatepruefung" version="1.1.7" provider-name="Codex">
   <requires>
     <import addon="xbmc.python" version="3.0.1" />
   </requires>
