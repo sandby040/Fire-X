@@ -1,5 +1,13 @@
 # Fire X
 
+Stand 21.10.2026: Vollstaendige Live-TV-1-Pakete aktualisiert:
+IPTV Master 2026.10.05.10, VODKOOL 2.0.8, Kodi Box TV 2028.08.29.5.
+Enthalten sind der lokale Katalog ohne vorzeitige Anmeldung, die aktuellen
+Resolver und die Quellenanzeige im Prueffenster. EZ Maintenance+ 2023.01.09.1
+schuetzt die benoetigten VODKOOL-Dateien. Datenpaket 2026.10.04.2 enthaelt die
+bereits aktuellen Listen; keine neuen Live-TV-2/3-Daten oder Zugangsdaten.
+Nach einem tatsaechlichen Update Nova neu starten.
+
 Stand 03.10.2026: N3 (plugin.program.nova.installer) ist enthalten.
 Streaming-Archiv beginnt auf Nutzerwunsch neu bei 1.0.0. Updater 1.1.3 enthält
 eine ausschließlich für dieses Add-on geltende Migration von 99.99.99.x nach
