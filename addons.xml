@@ -63,8 +63,7 @@
         </assets>
     </extension>
 
-</addon>
-<addon id="plugin.video.mediabox.stalker" name="Stalker" version="22.00.950" provider-name="@AdrianStube">
+</addon><addon id="plugin.video.mediabox.stalker" name="Stalker" version="22.00.950" provider-name="@AdrianStube">
 
     <requires>
         <import addon="xbmc.python" version="3.0.1" />
@@ -86,8 +85,7 @@
         </assets>
     </extension>
 
-</addon>
-<addon id="plugin.video.mediabox.xxx" name="XXX-Media-Box" version="22.00.950" provider-name="@AdrianStube">
+</addon><addon id="plugin.video.mediabox.xxx" name="XXX-Media-Box" version="22.00.950" provider-name="@AdrianStube">
 
     <requires>
         <import addon="xbmc.python" version="3.0.1" />
@@ -615,7 +613,7 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
         </assets>
     </extension>
 </addon>
-<addon id="plugin.video.iptvmaster" name="TiViMate Kodi" version="2026.10.05.11" provider-name="mr-evil1">
+<addon id="plugin.video.iptvmaster" name="TiViMate Kodi" version="2026.10.05.12" provider-name="mr-evil1">
 
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
@@ -705,14 +703,18 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     <import addon="service.stube.livetv.data" version="0.0.0" /></requires>
-    <extension point="xbmc.python.script" library="default.py" />
-    <extension point="xbmc.addon.metadata">
-        <summary lang="de_DE">Gemeinsamer Handshake für Live TV 3 und Live TV 2</summary>
-        <description lang="de_DE">Startet die vorhandenen Handshake-Aktionen nacheinander mit maximal vier Einzelversuchen pro Bereich.</description>
-        <platform>all</platform>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
     </extension>
-</addon>
-<addon id="service.talker3.autobridge" name="Talker3 Auto Bridge" version="1.0.1" provider-name="Codex">
+    <extension point="xbmc.addon.metadata">
+        <summary lang="de_DE">Moderner Handshake für Live TV 2 und Live TV 3 mit Vorab-Domainprüfung</summary>
+        <description lang="de_DE">Führt eine schnelle Vorab-Prüfung der Server-Domains durch und autorisiert anschließend Live TV 2 und Live TV 3 nacheinander im modernen Nova Dashboard Design.</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon><addon id="service.talker3.autobridge" name="Talker3 Auto Bridge" version="1.0.1" provider-name="Codex">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
   <import addon="service.stube.livetv.data" version="0.0.0" /></requires>
@@ -886,8 +888,7 @@ v1.0.1 (2019-08-06)
       <clearlogo>resources/clearlogo.png</clearlogo>
     </assets>
   </extension>
-</addon>
-<addon id="script.module.resolveurl.xxx" version="2.1.44" name="Adult Resolver SMR Extension" provider-name="gujal">
+</addon><addon id="script.module.resolveurl.xxx" version="2.1.44" name="Adult Resolver SMR Extension" provider-name="gujal">
     <requires>
 
         <import addon="script.module.resolveurl" version="5.1.0" />
@@ -1056,8 +1057,7 @@ v1.0.1 (2019-08-06)
 - Add button in API settings to view address of API config page
 - Fallback to playing channel uploads if no live stream is available
 - Add fallback method to load playlists when v3 API request cannot be made</news></extension>
-</addon>
-<addon id="weather.gismeteo" version="0.6.4+matrix.2" name="Gismeteo" provider-name="vl.maksime">
+</addon><addon id="weather.gismeteo" version="0.6.4+matrix.2" name="Gismeteo" provider-name="vl.maksime">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 	</requires>
