@@ -654,7 +654,7 @@ Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinz
     </assets>
   </extension>
 
-</addon><addon id="plugin.video.vodkool" name="KOOL.TO (Ultimate)" version="2.0.8" provider-name="Kato14,mr-evil1">
+</addon><addon id="plugin.video.vodkool" name="KOOL.TO (Ultimate)" version="2.0.9" provider-name="Kato14,mr-evil1">
   <requires>
     <import addon="script.module.requests" />
     <import addon="inputstream.ffmpegdirect" />
@@ -1109,7 +1109,7 @@ v1.0.1 (2019-08-06)
       <icon>icon.png</icon>
     </assets>
   </extension>
-</addon><addon id="plugin.video.kodiboxtv" name="Kodibox TV" version="2028.08.29.5" provider-name="Fire X">
+</addon><addon id="plugin.video.kodiboxtv" name="Kodibox TV" version="2028.08.29.6" provider-name="Fire X">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1" />
 		<import addon="script.module.requests" />
